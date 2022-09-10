@@ -1,0 +1,34 @@
+$color-primary: #83c5be;
+
+$color-secondary: #edf6f9;
+
+$color-terc: black;
+
+$color-qu: white;
+
+
+// cores em classes
+.color-s {
+    color: $color-secondary;
+    
+}
+
+.color-b {
+    color: $color-terc;
+}
+
+.color-p {
+    color: $color-primary;
+}
+
+.color-white {
+    color: $color-qu;
+}
+
+.bg-p {
+    background-color: $color-primary;
+}
+
+.bg-b {
+    background-color: rgba(0, 0, 0, 0.911);
+}

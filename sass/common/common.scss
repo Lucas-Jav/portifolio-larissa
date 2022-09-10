@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+    &::-webkit-scrollbar-track {
+        background: white;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #555;
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.822);
+    }
+}
+
+a {
+    text-decoration: none;
+    transition: 0.8s;
+    &:hover {
+        color: $color-primary;
+    }
+}
+
+.text-aling {
+    text-align: justify
+}
+
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
