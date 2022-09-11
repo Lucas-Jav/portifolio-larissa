@@ -8,6 +8,8 @@
 body {
     height: 100%;
     width: 100%;
+    background-image: url("../img/bg-img.png");
+    
 
     &::-webkit-scrollbar {
         width: 10px;
@@ -33,7 +35,7 @@ a {
 }
 
 .text-aling {
-    text-align: justify
+    text-align: justify;
 }
 
 
